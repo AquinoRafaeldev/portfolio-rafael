@@ -168,6 +168,15 @@ a {
 .contact-form .form-input {
   margin-bottom: 20px;
 }
+/* FOOTER */
+.footer-container {
+  width: 100%;
+  background-color: rgb(10, 58, 90);
+  color: rgba(255, 255, 255, 0.75);
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
 /* Utilities */
 
 .section-container {
@@ -219,7 +228,7 @@ a {
 .form-input {
   border: none;
   border-radius: 10px;
-  background-color: rgb(7, 56, 88);
+  background-color: rgb(10, 58, 90);
   padding: 20px;
   color: white;
   resize: none;
