@@ -97,6 +97,64 @@ a {
   color: white;
   opacity: 75%;
 }
+/* PROJETOS */
+.projects-content {
+  margin-top: 118px;
+}
+.projects-content .project-item:nth-child(2),
+.projects-content .project-item:nth-child(4) {
+  justify-content: flex-end;
+  text-align: right;
+}
+.projects-content .project-item:nth-child(2) > .project-image-detail,
+.projects-content .project-item:nth-child(4) > .project-image-detail {
+  order: 2;
+  margin-left: 50px;
+}
+.projects-content .project-item:nth-child(2) > .project-text,
+.projects-content .project-item:nth-child(4) > .project-text {
+  order: 1;
+}
+
+.project-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.project-text > p {
+  color: #fff;
+  opacity: 75%;
+  line-height: 29px;
+}
+.project-text {
+  margin-left: 50px;
+  max-width: 600px;
+}
+.project-text > h3 {
+  color: white;
+  font-weight: 500;
+  font-size: 2.25rem;
+}
+.project-image-detail {
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+}
+.project-item-image-one {
+  background-image: url("./images/barbearia-projeto.png");
+  background-position: center;
+}
+.project-item-image-two {
+  background-image: url("./images/visionxdoc.png");
+}
+.project-item-image-three {
+  background-image: url("./images/spotify.png");
+}
+.project-item-image-four {
+  background-image: url("./images/fsw-donalds.png");
+}
 /* Utilities */
 
 .section-container {
